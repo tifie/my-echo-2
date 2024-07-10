@@ -1,3 +1,3 @@
-# my-echo
+# my-echo-2
 
 echo のサンプルプログラム
