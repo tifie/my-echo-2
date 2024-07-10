@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-echo
-        image: ysakashita/my-echo:20231108
+        image: kullovel/my-echo:20240701
 ---
 apiVersion: v1
 kind: Service
@@ -35,7 +35,7 @@ metadata:
     name: my-echo
 spec:
   rules:
-  - host: my-echo.127.0.0.1.nip.io
+  - host: my-echo.192.168.49.2.nip.io
     http:
       paths:
       - pathType: Prefix
@@ -43,5 +43,5 @@ spec:
         backend:
           service:
             name: my-echo
-            port: 
+            port:
               number: 1323
