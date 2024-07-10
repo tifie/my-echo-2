@@ -2,7 +2,7 @@ NAME := my-echo
 REPOSITORY := kullovel/$(NAME)
 TAG := 20240710
 GOOS := linux
-GOARCH := amd64
+GOARCH := x86_64
 
 .PHONY: build test image-build image-push clean
 build:
