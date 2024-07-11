@@ -1,6 +1,6 @@
 NAME := my-echo
 REPOSITORY := kullovel/$(NAME)
-TAG := 20240710
+TAG := 20240712
 GOOS := linux
 GOARCH := amd64
 
